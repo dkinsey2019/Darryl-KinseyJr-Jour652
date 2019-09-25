@@ -1,11 +1,11 @@
-<!-- styles for my resume -->
-<!-- entirety of the text -->
+ /*styles for my resume *//
+/* entirety of the text */
 body {
   font-family: "Open Sans", arial, sans-serif;
   font-size: 1em;
   color: #444;
 }
-<!--
+/* my name */
 strong{
   color:#33485e;
   font-size:1.5em;
@@ -13,7 +13,7 @@ strong{
 
 
 }
-
+/* my name, just in the title */
 h1 {
   font-size:3em;
   color: #33485e;
@@ -21,7 +21,7 @@ h1 {
   text-transform: uppercase;
 
 }
-
+/* section titles */
 h2{
 font-size:1.5em;
 color: #FFF;
@@ -30,23 +30,23 @@ text-transform: uppercase;
 background-color: #33485e;
 
 }
-
+/* job title */
 h3{
   font-weight:600;
   font-size:1.5em;
 }
-
+/* job location */
 h4{
   font-weight: 400;
   font-size:1.5em;
 }
-
+/*dates*/
 h5{
   font-weight:400;
   font-size:1em;
   font-style: italic;
 }
-
+/*contact info and other jazz */
 ui{
 font-size: 1em;
 }

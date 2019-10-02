@@ -72,10 +72,7 @@ min-width:300px;
   margin-right: 0px;
 }
 
-.description{
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
+
 /*contact info and other jazz */
 li{
 font-size: 1em;
@@ -84,5 +81,22 @@ font-size: 1em;
   margin: 0px;
   padding: 0px;
   display: inline;
+
+}
+.description{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.degrees{
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.do {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px; 
 
 }

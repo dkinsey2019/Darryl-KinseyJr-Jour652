@@ -81,6 +81,7 @@ font-size: 1em;
   margin: 0px;
   padding: 0px;
   display: inline;
+  margin: 0 auto;
 
 }
 .description{
@@ -97,6 +98,6 @@ font-size: 1em;
   margin-top: 5px;
   margin-bottom: 0px;
   margin-left: 0px;
-  margin-right: 0px; 
+  margin-right: 0px;
 
 }

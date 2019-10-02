@@ -9,6 +9,7 @@ body {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+  padding-bottom: 50px;
 }
 /* my name */
 #title{
@@ -70,11 +71,18 @@ min-width:300px;
   margin-left: 0px;
   margin-right: 0px;
 }
-#description{
+
+.description{
   margin-top: 10px;
   margin-bottom: 10px;
 }
 /*contact info and other jazz */
 li{
 font-size: 1em;
+}
+.menu{
+  margin: 0px;
+  padding: 0px;
+  display: inline;
+
 }

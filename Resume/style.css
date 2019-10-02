@@ -31,7 +31,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   border-bottom: 1px solid #33485e;
-  width:60px;
+  width:60%;
   min-width: 300px;
   margin: 0 auto; /* to center divs*/
 
@@ -99,5 +99,12 @@ font-size: 1em;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
+
+}
+.top{
+  margin: 0 auto;
+  margin-bottom: 30px;
+  min-width: 300px;
+  width: 60%
 
 }

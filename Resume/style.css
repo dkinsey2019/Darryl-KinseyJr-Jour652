@@ -46,14 +46,14 @@ min-width:300px;
 
 }
 /* job title */
-h3{
+#jobtitle{
   font-weight:600;
   font-size:1.5em;
 }
 /* job location */
-h4{
+#organization{
   font-weight: 400;
-  font-size:1.5em;
+  font-size:1.25em;
 }
 /*dates*/
 h5{

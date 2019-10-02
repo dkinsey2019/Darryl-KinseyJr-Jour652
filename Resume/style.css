@@ -5,6 +5,11 @@ body {
   font-size: 1em;
   color: #444;
 }
+#container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 /* my name */
 strong{
   color:#33485e;
@@ -14,11 +19,15 @@ strong{
 
 }
 /* my name, just in the title */
-h1 {
+#name {
   font-size:3em;
   color: #33485e;
   text-align: center;
   text-transform: uppercase;
+  border-bottom: 1px solid #33485e;
+  width:60px;
+  min-width: 300px;
+  margin: 0 auto; /* to center divs*/
 
 }
 /* section titles */
@@ -47,6 +56,6 @@ h5{
   font-style: italic;
 }
 /*contact info and other jazz */
-ui{
+li{
 font-size: 1em;
 }

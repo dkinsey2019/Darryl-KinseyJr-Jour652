@@ -31,12 +31,18 @@ strong{
 
 }
 /* section titles */
-h2{
+#sectionheader{
 font-size:1.5em;
 color: #FFF;
 font-weight: 400;
 text-transform: uppercase;
 background-color: #33485e;
+margin-bottom: 10px;
+margin-top: 20px;
+margin-left: 0px;
+margin-right:0px;
+width:70%;
+min-width:300px;
 
 }
 /* job title */

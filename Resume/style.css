@@ -11,10 +11,15 @@ body {
   margin: 0 auto;
 }
 /* my name */
-strong{
+#title{
   color:#33485e;
   font-size:1.5em;
-  color: #33485e;
+  font-weight: 600px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
 
 
 }

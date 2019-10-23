@@ -1,7 +1,7 @@
  /*styles for my resume *//
 /* entirety of the text */
 body {
-  font-family: "Open Sans", arial, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 1em;
   color: #444;
 }
@@ -10,6 +10,9 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding-bottom: 50px;
+  text-align: left;
+  font-family: "Raleway", sans-serif;
+
 }
 /* my name */
 #title{
@@ -71,6 +74,11 @@ min-width:300px;
   margin-left: 0px;
   margin-right: 0px;
 }
+#Experience{
+  font-size: 3em;
+  color:#8C0808;
+  font-weight: 800;
+}
 
 
 /*contact info and other jazz */
@@ -104,17 +112,11 @@ font-size: 1em;
 }
 .top{
   margin: 0 auto;
-  text-align: right;
+  text-align: center;
+  margin-top: 30px;
   margin-bottom: 30px;
   min-width: 800px;
   width: 100%;
-  float: right; 
-
-}
-.banner{
-    right: 500px;
-    max-width: 500px;
-    width:100%;
-    float:right;
+  float: right;
 
 }

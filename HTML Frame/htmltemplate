@@ -68,13 +68,14 @@
 
   <p class= "chapter"> chapter goes here </p>
     <p class= "text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mattis, enim vel ornare posuere, diam nunc congue eros, a blandit magna metus eget arcu. Sed eu eleifend ante. Vivamus metus justo, consequat quis venenatis a, tincidunt at diam. Phasellus vel ultrices libero, in volutpat est. Donec aliquet, tortor et ultricies laoreet, risus libero semper est, et hendrerit leo diam posuere nisi. Aliquam iaculis urna in nunc auctor accumsan. In lobortis neque non mauris ultrices, ut consectetur eros placerat. Vestibulum aliquet, leo in elementum interdum, elit dolor aliquet libero, eu posuere nisi mauris sed eros. Integer semper scelerisque blandit. Aliquam semper erat dolor, dictum mollis nulla ullamcorper vel. Sed ipsum sapien, laoreet sed egestas pretium, aliquet in purus.
+    </p>
 
       <img src="P1411112.jpg" alt= "1/4midget sprint car" class="image1">
       <figcaption> caption, enter description for whatever this is here </figcaption>
       <br>
 
-    In diam tortor, condimentum sit amet enim ac, pellentesque fringilla augue. Vivamus dignissim enim tincidunt quam fermentum viverra ultricies sed nibh. Curabitur dui risus, blandit at ullamcorper mattis, blandit id massa. Proin eu auctor libero. Aliquam vitae ante rutrum, ornare augue sit amet, pharetra nisl. Duis accumsan arcu ac mauris auctor, vitae blandit augue porttitor. Phasellus mauris mauris, sollicitudin at nisi eget, aliquam placerat magna. In sed ex vel purus accumsan luctus. Ut venenatis neque in augue dapibus rutrum. Cras maximus, lorem nec consectetur accumsan, purus est congue elit, vitae iaculis risus metus vel erat. Vivamus porttitor bibendum turpis, id laoreet mauris egestas eu. Pellentesque et augue et lectus vulputate tincidunt. Vivamus lacinia, ligula quis gravida aliquet, nulla lorem malesuada metus, blandit porttitor purus massa ac dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean ut nulla eget eros condimentum ullamcorper volutpat vel mi.
-</p>
+    <p class= "text">In diam tortor, condimentum sit amet enim ac, pellentesque fringilla augue. Vivamus dignissim enim tincidunt quam fermentum viverra ultricies sed nibh. Curabitur dui risus, blandit at ullamcorper mattis, blandit id massa. Proin eu auctor libero. Aliquam vitae ante rutrum, ornare augue sit amet, pharetra nisl. Duis accumsan arcu ac mauris auctor, vitae blandit augue porttitor. Phasellus mauris mauris, sollicitudin at nisi eget, aliquam placerat magna. In sed ex vel purus accumsan luctus. Ut venenatis neque in augue dapibus rutrum. Cras maximus, lorem nec consectetur accumsan, purus est congue elit, vitae iaculis risus metus vel erat. Vivamus porttitor bibendum turpis, id laoreet mauris egestas eu. Pellentesque et augue et lectus vulputate tincidunt. Vivamus lacinia, ligula quis gravida aliquet, nulla lorem malesuada metus, blandit porttitor purus massa ac dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean ut nulla eget eros condimentum ullamcorper volutpat vel mi.
+    </p>
 
 
 </div>

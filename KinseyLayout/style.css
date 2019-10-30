@@ -1,0 +1,33 @@
+p {
+  font-family: Georgia,Arial, serif;
+  font-size: 13px;
+}
+blockquote {
+  font-family: Georgia, Arial, Serif;
+  font-size: 24px;
+  color: #cc3300;
+  font-style: italic;
+}
+figcaption {
+  font-size: 11px;
+  font-family: Helvetica;
+  font-style: italic;
+
+}
+#content {
+  margin: 0 auto;
+  width: 900px;
+}
+.headline{
+  font-family: Helvetica, Arial, serif;
+  font-size: 14px;
+  font-style: italic;
+
+}
+.banner {
+  width: 100%;
+  max-width: 800px;
+}
+#image2{
+  width: 450px;
+}

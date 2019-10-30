@@ -1,0 +1,48 @@
+/* I also made this! */
+p{
+  font-family:"Helvetica", Arial;
+  font-size: 12px;
+
+}
+
+figcaption {
+  font-size: 11px;
+  font-family: Helvetica;
+  font-style: italic;
+
+}
+
+blockquote{
+  font-size: 16px;
+  font-family: Helvetica;
+  color: #0e632c;
+  font-style: italic;
+
+}
+
+.headline{
+  font-family: Serif, Arial;
+  font-size: 24px;
+}
+
+.subhead{
+  font-family: Serif, Arial;
+  font-size: 24px;
+}
+
+.banner {
+  width: 100%;
+  max-width: 1600px;
+  padding-left: 100px;
+}
+.byline{
+  font-family: Serif, Arial;
+  font-style: 18px;
+}
+#imagecap {
+
+}
+#content {
+  margin: 0 auto;
+  width: 1600px;
+}

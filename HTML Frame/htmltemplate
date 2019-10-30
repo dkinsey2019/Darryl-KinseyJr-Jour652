@@ -1,0 +1,118 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+ <title>Bootstrap Template</title>
+
+
+   <!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<!-- Load c3.css -->
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.css" rel="stylesheet">
+
+   <!-- Load our CSS -->
+   <link rel="stylesheet" href="style.css">
+
+   <!-- Load d3.js and c3.js -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js" charset="utf-8"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.js"></script>
+
+ </head>
+ <body>
+
+
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+ <a class="navbar-brand" href="#">Navbar</a>
+ <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+   <span class="navbar-toggler-icon"></span>
+ </button>
+
+ <div class="collapse navbar-collapse" id="navbarSupportedContent">
+   <ul class="navbar-nav mr-auto">
+     <li class="nav-item active">
+       <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+     </li>
+     <li class="nav-item">
+       <a class="nav-link" href="#">Link</a>
+     </li>
+     <li class="nav-item dropdown">
+       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Dropdown
+       </a>
+       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+         <a class="dropdown-item" href="#">Action</a>
+         <a class="dropdown-item" href="#">Another action</a>
+         <div class="dropdown-divider"></div>
+         <a class="dropdown-item" href="#">Something else here</a>
+       </div>
+     </li>
+     <li class="nav-item">
+       <a class="nav-link disabled" href="#">Disabled</a>
+     </li>
+   </ul>
+   <form class="form-inline my-2 my-lg-0">
+     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+   </form>
+ </div>
+</nav>
+
+<div class="container">
+
+  <p class="headline"> Headline goes heare </p>
+  <p class= "byline"> By Byline </p>
+
+  <p class= "chapter"> chapter goes here </p>
+    <p class= "text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mattis, enim vel ornare posuere, diam nunc congue eros, a blandit magna metus eget arcu. Sed eu eleifend ante. Vivamus metus justo, consequat quis venenatis a, tincidunt at diam. Phasellus vel ultrices libero, in volutpat est. Donec aliquet, tortor et ultricies laoreet, risus libero semper est, et hendrerit leo diam posuere nisi. Aliquam iaculis urna in nunc auctor accumsan. In lobortis neque non mauris ultrices, ut consectetur eros placerat. Vestibulum aliquet, leo in elementum interdum, elit dolor aliquet libero, eu posuere nisi mauris sed eros. Integer semper scelerisque blandit. Aliquam semper erat dolor, dictum mollis nulla ullamcorper vel. Sed ipsum sapien, laoreet sed egestas pretium, aliquet in purus.
+
+      <img src="P1411112.jpg" alt= "1/4midget sprint car" class="image1">
+      <figcaption> caption, enter description for whatever this is here </figcaption>
+      <br>
+
+    In diam tortor, condimentum sit amet enim ac, pellentesque fringilla augue. Vivamus dignissim enim tincidunt quam fermentum viverra ultricies sed nibh. Curabitur dui risus, blandit at ullamcorper mattis, blandit id massa. Proin eu auctor libero. Aliquam vitae ante rutrum, ornare augue sit amet, pharetra nisl. Duis accumsan arcu ac mauris auctor, vitae blandit augue porttitor. Phasellus mauris mauris, sollicitudin at nisi eget, aliquam placerat magna. In sed ex vel purus accumsan luctus. Ut venenatis neque in augue dapibus rutrum. Cras maximus, lorem nec consectetur accumsan, purus est congue elit, vitae iaculis risus metus vel erat. Vivamus porttitor bibendum turpis, id laoreet mauris egestas eu. Pellentesque et augue et lectus vulputate tincidunt. Vivamus lacinia, ligula quis gravida aliquet, nulla lorem malesuada metus, blandit porttitor purus massa ac dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean ut nulla eget eros condimentum ullamcorper volutpat vel mi.
+</p>
+
+
+</div>
+
+
+
+</div>
+
+<div class="container">
+        <div class="row">
+
+                <div class="col-md-3">
+                        <h3>Heading 1</h3>
+                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+                </div>
+
+
+                <div class="col-md-3">
+                        <h3>Heading 2</h3>
+                        <p>Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Lorem ipsum dolor.</p>
+                </div>
+
+                <div class="col-md-3">
+                        <h3>Heading 3</h3>
+                        <p>Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+                </div>
+        </div>
+</div>
+
+
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+
+<footer>
+    <p class="copyright"> footer text goes here </p>
+    <p class="copyright"> copyright goes here </p>
+</body>
+</html>

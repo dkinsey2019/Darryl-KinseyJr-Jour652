@@ -1,0 +1,130 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+
+ <title>An American tragedy</title>
+
+
+   <!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<!-- Load c3.css -->
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.css" rel="stylesheet">
+
+   <!-- Load our CSS -->
+   <link rel="stylesheet" href="style.css">
+
+   <!-- Load d3.js and c3.js -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js" charset="utf-8"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.js"></script>
+   <!-- fonts -->
+   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|PT+Serif:400,700&display=swap" rel="stylesheet">
+
+ </head>
+ <body>
+
+
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+     <img class="star" src="images/star-red.png"  width= "15px">
+     <img class="starblue" src="images/star-blue.png"width= "15px">
+ <a class="navbar-brand" href="#">An American Tragedy</a>
+ <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+   <span class="navbar-toggler-icon"></span>
+ </button>
+
+ <div class="collapse navbar-collapse" id="navbarSupportedContent">
+   <ul class="navbar-nav mr-auto">
+     <li class="nav-item">
+       <a class="nav-link" href="#WhereandWhen">Where and When</a>
+     </li>
+
+     <li class="nav-item">
+       <a class="nav-link" href="#">The Carnage</a>
+     </li>
+
+     <li class="nav-item">
+       <a class="nav-link" href="#">A Profile</a>
+         </li>
+          </ul>
+
+
+ </div>
+</nav>
+
+<div class="container">
+  <center><img src="images/hero-image.jpg" alt= "AR-15" class="hero-image"></center>
+    <p class="headline"> "An American Tragedy" </p>
+    <p class= "byline"> Over 200 school shootings in two decades. "What have we learned?" </p>
+      <center><img src="images/star-red.png" width= "30px" class="introstars"><img src="images/star-blue.png" wclass="introstars"width= "30px" class="introstars"><img src="images/star-red.png" width= "30px" class="introstars"><img src="images/star-blue.png" width= "30px" class="introstars"> </center>
+
+  <p class="introtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+
+<div>
+
+<p class= "chapter"><a name="WhereandWhen"><img src="images/star-red.png" width= "10px"class= "chapterstar"><img src="images/star-blue.png" width= "10px" class= "chapterstar">Chapter goes here </p></a>
+
+    <p class= "chapter1"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mattis, enim vel ornare posuere, diam nunc congue eros, a blandit magna metus eget arcu. Sed eu eleifend ante. Vivamus metus justo, consequat quis venenatis a, tincidunt at diam. Phasellus vel ultrices libero, in volutpat est. Donec aliquet, tortor et ultricies laoreet, risus libero semper est, et hendrerit leo diam posuere nisi. Aliquam iaculis urna in nunc auctor accumsan. In lobortis neque non mauris ultrices, ut consectetur eros placerat. Vestibulum aliquet, leo in elementum interdum, elit dolor aliquet libero, eu posuere nisi mauris sed eros. Integer semper scelerisque blandit. Aliquam semper erat dolor, dictum mollis nulla ullamcorper vel. Sed ipsum sapien, laoreet sed egestas pretium, aliquet in purus.
+    </p>
+
+    <center><img src="images/alaina-petty.jpg" class="stack-image"></center>
+    <p class="caption">Caption: Insert image or video above</p>
+
+
+    <p class= "chapter1">In diam tortor, condimentum sit amet enim ac, pellentesque fringilla augue. Vivamus dignissim enim tincidunt quam fermentum viverra ultricies sed nibh. Curabitur dui risus, blandit at ullamcorper mattis, blandit id massa. Proin eu auctor libero. Aliquam vitae ante rutrum, ornare augue sit amet, pharetra nisl. Duis accumsan arcu ac mauris auctor, vitae blandit augue porttitor. Phasellus mauris mauris, sollicitudin at nisi eget, aliquam placerat magna. In sed ex vel purus accumsan luctus. Ut venenatis neque in augue dapibus rutrum. Cras maximus, lorem nec consectetur accumsan, purus est congue elit, vitae iaculis risus metus vel erat. Vivamus porttitor bibendum turpis, id laoreet mauris egestas eu. Pellentesque et augue et lectus vulputate tincidunt. Vivamus lacinia, ligula quis gravida aliquet, nulla lorem malesuada metus, blandit porttitor purus massa ac dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean ut nulla eget eros condimentum ullamcorper volutpat vel mi.
+    </p>
+    <!-- Graphic container-->
+<div class="graphic-container">
+<h2>Shootings by year</h2>
+<p>The number of shootings per year has generally remained high in the US since the turn of the century, with noticable dips in 2002, 2011 and 2015. The last three years, the number of shootings has been consistantly high.</p>
+<div id="shootingsByYearChart"></div>
+<em>Source: Data collected by The Washington Post</em>
+</div>
+<!-- END graphic container-->
+
+    <p class= "chapter1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</div>
+
+
+
+</div>
+
+
+
+</div>
+
+
+
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+
+<footer>
+    <p class="copyright"> footer text goes here </p>
+    <p class="copyright"> copyright text goes here</p>
+</footer>
+<!-- c3 script-->
+<script>
+//CHART 1
+var chart = c3.generate({
+ bindto: '#shootingsByYearChart',
+ data: {
+   x: 'x',
+   columns: [
+     ['x', 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018],
+     ['Number of incidents', 7, 12, 13, 5, 11, 9, 13, 15, 10, 9, 9, 9, 7, 11, 13, 16, 7, 13, 14, 12],
+   ]
+ },
+ color: {
+   pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
+ }
+});
+
+
+     </script>
+</body>
+</html>

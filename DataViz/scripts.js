@@ -1,29 +1,14 @@
 
-//Line Chart
-var chart = c3.generate({
-  bindto: '#myLineChart',
-  data: {
-    x: 'x',
-    columns: [
-      ['x', 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018],
-        ['Killed', 14,4,5,1,5,3,9,9,1,5,1,3,2,32,3,6,6,0,2,5,21],
-        
-    ]
-  },
-  color: {
-    pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
-  }
-});
+
 
 //Bar Chart
 var chart2 = c3.generate({
-     bindto: '#shootingsByTypeChart',
+     bindto: '#averagespeeds',
      data: {
        columns: [
-         ['City', 101],
-         ['Suburb', 58],
-         ['Town', 24],
-         ['Rural', 31],
+         ['Late ModelSportsman', 21.23],
+         ['PureStock', 23.73],
+         ['Town', 25.21],
 
        ],
        type: 'bar'
@@ -38,11 +23,10 @@ var chart2 = c3.generate({
    data: {
      // iris data from R
      columns: [
-       ['Asian', 1],
-       ['American Indian', 3],
-       ['Black', 33],
-       ['Hispanic', 6],
-       ['White', 57],
+       ['Late Model Sportsman', 50000],
+       ['Pure Stock', 30000],
+       ['Hobby Stock', 20000],
+
 
      ],
      type : 'pie',

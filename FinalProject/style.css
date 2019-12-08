@@ -97,7 +97,14 @@ margin-left: 25%;
 /*image*/
 .hero-image{
   width: 100%;
-  max-width: 900px;
+  max-width: 1200px;
+}
+.intext-image{
+  width: 100%;
+  max width: 900px;
+  padding=top: 50px;
+
+}
 
 
 /*image caption*/
